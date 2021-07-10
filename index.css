@@ -1,0 +1,134 @@
+.main {
+    width: 980px;
+    height: 455px;
+    /* background-color: #a8cef3; */
+    margin: 10px 0 0 220px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: sandybrown; */
+    
+}
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+    /* background-color: #ff0902; */
+}
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.news-hd h5 {
+    float: left;
+    margin: 0 15px;
+    font-size: 14px;
+}
+.news-hd .more {
+    float: right;
+    margin: 0 15px;
+}
+.news-hd .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+.news-bd {
+    margin: 0px 15px;
+}
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;/*溢出隐藏*/
+    white-space: nowrap;/*强制一行显示*/
+    text-overflow: ellipsis;/*文字溢出用省略号替代*/
+}
+.lifeservice {
+    height: 210px;
+    /* background-color: #991005; */
+    border-left: 1px solid #e4e4e4;
+}
+.lifeservice ul {
+    text-align: center;
+}
+.lifeservice ul li {
+    float: left;
+    width: 25%;
+    height: 71px;
+    padding-top: 13px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #a8cef3;
+    background: url(../images（样式类图片文件夹）/icons.png) no-repeat -16px -16px;
+}
+.lifeservice .lifeservice_hua {
+    background-position: -16px -16px;
+}
+.lifeservice .lifeservice_ji {
+    background-position: -79px -16px ;
+}
+.lifeservice .lifeservice_dian {
+    background-position: -141px -16px;
+}
+.lifeservice .lifeservice_you {
+    background-position: -206px -16px;
+}
+.lifeservice .lifeservice_cai {
+    background-position: -16px -88px;
+}
+.lifeservice .lifeservice_jia {
+    background-position: -79px -88px;
+}
+.lifeservice .lifeservice_jiu {
+    background-position: -141px -88px;
+}
+.lifeservice .lifeservice_huo {
+    background-position: -206px -88px;
+}
+.lifeservice .lifeservice_zhong {
+    background-position: -16px -159px;
+}
+.lifeservice .lifeservice_licai {
+    background-position: -79px -159px;
+}
+.lifeservice .lifeservice_li {
+    background-position: -141px -154px;
+}
+.lifeservice .lifeservice_bai {
+    background-position: -206px -159px;
+}
+.bargain {
+    margin-top: 5px;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 11px;
+    background-color: #a8cef3;
+}
+.recom .recom_hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 31px;
+}
+.recom .recom_bd {
+    float: left;
+    width: 994px;
+    height: 163px;
+    background-color: red;
+}
